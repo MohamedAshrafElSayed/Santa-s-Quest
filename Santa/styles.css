@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+canvas {
+    display: block;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+@font-face {
+    font-family: chrismas;
+    src: url(/assets/BauhausModern-Regular.ttf);
+}
